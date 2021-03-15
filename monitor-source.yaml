@@ -5,8 +5,8 @@ metadata:
   name: monitoring
   namespace: flux-system
 spec:
-  interval: 30m0s
+  interval: 10m0s
   ref:
     branch: main
-  url: https://github.com/spoorthigowda2309/CinemaApplication.git
+  url: https://github.com/spoorthigowda2309/CinemaApplication
 

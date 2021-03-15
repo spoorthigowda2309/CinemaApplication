@@ -12,7 +12,7 @@ spec:
   - kind: Deployment
     name: grafana
     namespace: flux-system
-  interval: 1m0s
+  interval: 1h0m0s
   path: ./manifests/monitoring
   prune: true
   sourceRef:
